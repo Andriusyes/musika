@@ -1,0 +1,166 @@
+{
+  "clip": {
+    "description": "Groja clipa",
+    "usagesReply": "Naudoti komanda: /clip <name>",
+    "errorQueue": "Can't play clip because there is an active queue.",
+    "errorNotChannel": "You need to join a voice channel first!"
+  },
+  "clips": {
+    "description": "Listas visų klipų"
+  },
+  "help": {
+    "description": "Parodo visų muzikos komandų saraša",
+    "embedTitle": "{botname} help",
+    "embedDescription": "Listas visų muzikos komandų"
+  },
+  "invite": {
+    "description": "Atsiunčia boto pakvietima"
+  },
+  "loop": {
+    "description": "Įjungia muzikos pakartotinį paleidima iš naujo",
+    "errorNotQueue": "Atsiprašau bet nepaleisiu dainų iš naujo nes niekas negroja.",
+    "result": "Muzikos kartojimas yra įjungtas {loop}"
+  },
+  "lyrics": {
+    "description": "Duoda žodžius nuo dabartinės muzikos ",
+    "errorNotQueue": "Atsiprašau bet niekas negroja.",
+    "lyricsNotFound": "Nerandu žodžių pagal {title} pavadinima.",
+    "embedTitle": "{title} - žodžiai"
+  },
+  "move": {
+    "description": "Perkelia daina į kita eilia",
+    "errorNotQueue": "Nera eiliű.",
+    "usagesReply": "Naudok komanda: {prefix}move <Queue Number>",
+    "result": "<@{author}> 🚚 perkeltas  **{title}** į {index} eilė."
+  },
+  "nowplaying": {
+    "description": "Parodo dabar grojama daina",
+    "errorNotQueue": "Dabar niekas negroja.",
+    "embedTitle": "Dabar grojama",
+    "live": " ◉ Tiesiogiai",
+    "timeRemaining": "Liko laiko: {time}"
+  },
+  "pause": {
+    "description": "Sustabdo muzika",
+    "errorNotQueue": "Dabar niekas negroja.",
+    "result": "<@{author}> ⏸ Sustabdė muzika."
+  },
+  "ping": {
+    "description": "Parodo boto pinga",
+    "result": "📈 Dabartinis boto pingas yra: {ping} ms"
+  },
+  "play": {
+    "description": "pradada groti daina iš youtubės",
+    "errorNotChannel": "Turi būti balso kanale!",
+    "errorNotInSameChannel": "Tu turi būti tam pačiam kanale kaip ir  <{user}>",
+    "usageReply": "Naudok komanda: {prefix}play <YouTube URL | Video Name | Soundcloud URL>",
+    "missingPermissionConnect": "Negaliu prisijungti trūksta leidimų",
+    "missingPermissionSpeak": "Trūksta leidimo kalbėti įsitikink ar turi visas botas leidima kalbėti !",
+    "queueAdded": "✅ **{title}** buvo pridėta į eile <@{author}>",
+    "cantJoinChannel": "Negaliu prisijunkti prie kanalo: {error}",
+    "queueEnded": "❌ Muzika pasibaigė.",
+    "queueError": "Klaida: {error}",
+    "startedPlaying": "🎶 Pradėta groti daina: **{title}** {url}",
+    "skipSong": "<@{author}> ⏩ paleido kita daina",
+    "pauseSong": "<@{author}> ⏸ Sustabdė muzika.",
+    "resumeSong": "<@{author}> ▶ Paleido muzika!",
+    "unmutedSong": "<@{author}> 🔊 Atitildė muzika!",
+    "mutedSong": "<@{author}> 🔇 Užtildė muzika!",
+    "decreasedVolume": "<@{author}> 🔉 Pamažino muzikos garsa į  {volume}%",
+    "increasedVolume": "<@{author}> 🔊 Padidino muzikos garsa į {volume}%",
+    "loopSong": "<@{author}> Pakartotinis dainos paleidimas yra įjungtas{loop}",
+    "stopSong": "<@{author}> ⏹ Sustabdė muzika!",
+    "leaveChannel": "Išeinama iš balso kanalo...",
+    "songNotFound": "Muzika nebuvo rasta"
+  },
+  "playlist": {
+    "description": "Pradeda groti muzikas iš jūsų youtubės playlisto",
+    "usagesReply": "Naudok komanda : {prefix}playlist <YouTube Playlist URL | Playlist Name>",
+    "errorNotChannel": "Prisijunk prie balso kanalo ir bandyk iš naujo!",
+    "errorNotInSameChannel": "Turi būti tam pačiam kanale {user}",
+    "missingPermissionConnect": "Negaliu prisijungti truksta permishionų",
+    "missingPermissionSpeak": "Negaliu kalbėti duokit leidima kakbėti ir bandykite iš naujo!",
+    "errorNotFoundPlaylist": "Muzikos eilės nebuvo rastos :(",
+    "fetchingPlaylist": "⌛ Kranama muzikos eiles...",
+    "playlistCharLimit": "\nMuzikos eilių sarašas ilgesnis  egu leista naudoti daugiau raidžių...",
+    "startedPlaylist": "<@{author}> Pradėjo Muzikos eiles",
+    "cantJoinChannel": "Negaliu prisijungti prie kanalo nes įvyko klaida bandykite dar karta : {error}"
+  },
+  "pruning": {
+    "description": "Įjunga žinučių trinima",
+    "errorWritingFile": "Atsirado klaida peržiūrint failus.",
+    "result": "Žinučių trinimas yra  {result}"
+  },
+  "queue": {
+    "description": "Parodo muzikos eilių saraša.",
+    "missingPermissionMessage": "trūksta leidimų tvarkyti žinutes ir pridėti reakcijas",
+    "errorNotQueue": "❌ **Niekas dabar negrojama**",
+    "currentPage": "Dabartinis puslapis - ",
+    "embedTitle": "daina Queue\n",
+    "embedCurrentSong": "**Dabartinė daina - [{title}]({url})**\n\n{info}"
+  },
+  "remove": {
+    "description": "Išima muzika iš eilė",
+    "errorNotQueue": "Nėra muzikos eilių.",
+    "usageReply": "Daudok komanda: {prefix}remove <Queue Number>",
+    "result": "<@{author}> ❌ Išimta daina **{title}** iš muzikos eilių."
+  },
+  "resume": {
+    "description": "Paleidžia dabartine daina kuri buvo sustabdyta",
+    "errorNotQueue": "Dabar niekas negroja.",
+    "resultNotPlaying": "<@{author}> ▶ Paleido muzika!",
+    "errorPlaying": "Muzika nebuvo sustabdyta."
+  },
+  "search": {
+    "description": "Ieško ir parenka muzikos pavadinima",
+    "usageReply": "Naudok komanda: {prefix}{name} <Video Name>",
+    "errorAlreadyCollector": "Žinučių kolekcininkas jau yra šiam kanale.",
+    "errorNotChannel": "Prisijunk prie kanalo!",
+    "resultEmbedTtile": "**Parašyk dainos skaičių**",
+    "resultEmbedDesc": "Rezultastas dėl: {search}"
+  },
+  "shuffle": {
+    "description": "Sumaišo muzikas eilėja",
+    "errorNotQueue": "dabar niekas negroja .",
+    "result": "<@{author}> 🔀 sumaišė dainas"
+  },
+  "skip": {
+    "description": "Paleidžia kita daina",
+    "errorNotQueue": "Dabar niekas negroja arba nėra daigiau muzikos saraše.",
+    "result": "<@{author}> ⏭ paleido kita daina"
+  },
+  "skipto": {
+    "description": "Paleidžia į tam pasirinkta eilių numerį",
+    "usageReply": "Naudok komanda: {prefix}{name} <Queue Number>",
+    "errorNotQueue": "Niekas dabar negroja",
+    "errorNotValid": "Eilė tik  {length} muzikos dainų ilgio!",
+    "result": "<@{author}> ⏭ praleido iki {arg} dainos"
+  },
+  "stop": {
+    "description": "sustabdo muzika",
+    "errorNotQueue": "Nieko nera paleista.",
+    "result": "<@{author}> ⏹ Sustabdė muzika!"
+  },
+  "uptime": {
+    "description": "Parodo kiek laiko botas Aktyvus",
+    "result": "Botas paleistas yra : `{days} diena(s),{hours} valanda(s), {minutes} minute(s), {seconds} sekunde(s)`"
+  },
+  "volume": {
+    "description": "Pakeičia muzikos garso dydi",
+    "errorNotQueue": "Dabar niekas negroja.",
+    "errorNotChannel": "Tau reikia prisijungti prie balso kanalo!",
+    "currentVolume": "🔊 Dabartinės muzikos garsas yra: **{volume}%**",
+    "errorNotNumber": "Naudok skaičius nuo 0 iki 100 .",
+    "errorNotValid": "Naudok skaičius nuo 0 - 100.",
+    "result": "Garsas pakeistas į: **{arg}%**"
+  },
+  "common": {
+    "on": "**Įjungtas**",
+    "off": "**Išjungta**",
+    "enabled": "**Leista**",
+    "disabled": "**Uždrausta**",
+    "errorNotChannel": "Prisijunk prie balso kanalo ir bandyk dar karta!",
+    "cooldownMessage": "Prašau palaukti {time} sekunde(s) Jei nori naudoti `{name}` komanda iš naujo.",
+    "errorCommend": "Atsirado klaida."
+  }
+}
